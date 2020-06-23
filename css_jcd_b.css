@@ -1,0 +1,301 @@
+/* Navbar Commune*/
+.menu{
+  height: 48px;
+  background-color: #282828;
+  color: #FFFFFF;
+  font-family: Muli;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  padding-top:.5rem;
+}
+.border-bottom-page {
+  border-bottom: 6px solid #F8C21C;
+}
+.navbar-custom{
+  color: #FFFFFF; 
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-expand-sm.navbar-custom .navbar-nav .nav-link {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.border-dropdown{
+  border-left: 1px solid #F8C21C;
+}
+.row-gap-4right{
+  padding-right: 4rem;
+}
+.row-gap-10right{
+  padding-right: 10rem;
+}
+
+/*Page Accueil*/
+.jumbotron.jumbo-home{
+  color: white;
+  padding: 12rem;
+  border-radius: 0;
+}
+.jumbo-home{
+  background-image: url(images/home.jpg);
+}
+.jcd-materiaux {
+  color: #FFFFFF;
+  font-family: Merriweather;
+  font-size: 75px;
+  letter-spacing: 4px;
+  line-height: 94px;
+  padding-bottom: 1rem;
+}
+.produits-pour-vos-projets{
+  color: #FFFFFF;
+  font-family: Muli;
+  font-size: 20px;
+  letter-spacing: 10px;
+  line-height: 25px;
+}
+.nous-solutions{
+  color: #000000;
+  font-family: Merriweather;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+.title-rounded-circle{
+  color: #000000;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  line-height: 27px;
+  text-align: center;
+  text-transform:uppercase;
+  padding-top: 2rem;
+}
+.texte-rounded-circle{
+  color: #666666;
+  font-family: Muli;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding: 0.3rem 1rem 0rem 4rem ;
+}
+.jcd-materiaux-neg{
+   color: #FFFFFF;
+  font-family: Merriweather;
+  font-size: 18px;
+  letter-spacing: 0.96px;
+  line-height: 27px;
+  text-align: center;
+  background-color: #9C6A56;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.35);
+  padding: 1.5rem 4rem;
+}
+.row-gap-3down{
+  padding-bottom: 3rem;
+}
+.row-gap-3top{
+  padding-top: 3rem;
+}
+/*Page Société*/
+.jumbotron.jumbo-entreprise{
+  color: white;
+  border-radius: 0;
+  padding: 9rem;
+}
+.jumbo-entreprise{
+  background: linear-gradient(
+  rgba(0,0,0, 0.25),rgba(0,0,0, 0.25)),
+  url(images/societe-home.jpg);
+}
+.texte-services{
+  color: #000000;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+}
+.row-gap-1top{
+  padding-top: 1rem;
+}
+/*Page Bois*/ /*Page Construction*/ /*Page Menuiserie*/  /*Page Autres*/
+.jumbotron.jumbo-bois,.jumbotron.jumbo-constru,.jumbotron.jumbo-menui,.jumbotron.jumbo-autres{
+  color: white;
+  border-radius: 0;
+  padding: 9rem;
+}
+
+.jumbo-bois{
+  background: linear-gradient(
+  rgba(0,0,0, 0.25),rgba(0,0,0, 0.25)),
+  url(images/bois-home.jpg);
+}
+.jumbo-constru{
+  background: linear-gradient(
+  rgba(0,0,0, 0.25),rgba(0,0,0, 0.25)),
+  url(images/construction-home.jpg);
+}
+.jumbo-menui{
+  background: linear-gradient(
+  rgba(0,0,0, 0.25),rgba(0,0,0, 0.25)),
+  url(images/menuiserie-home.jpg);
+}
+.jumbo-autres{
+  background: linear-gradient(
+  rgba(0,0,0, 0.25),rgba(0,0,0, 0.25)),
+  url(images/other-home.jfif);
+}
+.info-bois{
+  color: #2B2B2B;
+  font-family: Muli;
+  font-size: 16px;
+  letter-spacing: 0.85px;
+  line-height: 20px;
+}
+.info-menui{
+  color: #9C6A56;
+  font-family: Muli;
+  font-size: 16px;
+  letter-spacing: 0.85px;
+  line-height: 20px;
+}
+.row-gap-6top{
+  padding-top: 6rem;
+}
+.row-gap-7top{
+  padding-top: 7rem;
+}
+.text-left{
+  text-align: left;
+}
+.padding-photos{
+  padding: 0 0.25rem !important;
+}
+/*Page Contact*/
+.jumbotron.jumbo-contact{
+  color: white;
+  padding: 9rem;
+  border-radius: 0;
+  padding-right: 0;
+  padding-left: 15rem;
+
+}
+.jumbo-contact{
+  background: linear-gradient(
+  rgba(0,0,0, 0.25),rgba(0,0,0, 0.25)),url(images/bois-home.jpg)
+}
+input[type=text]{
+  padding-right: 12rem;
+  padding-left: 1rem;
+  padding-bottom: 0.625rem;
+  padding-top: 0.625rem;
+  margin-left: 1.25rem;
+  margin-bottom: 1.25rem;
+  color: #515151;
+  font-family: Muli;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.textarea{
+  margin-left: 1.25rem;
+  padding-right: 13rem;
+  color: #515151;
+  font-family: Muli;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+input[type=submit]{
+  margin-left: 1.5rem;
+  background-color: #9C6A56;
+  color: #FFFFFF;
+  font-family: Merriweather;
+  font-size: 19.6px;
+  line-height: 24px;
+}
+.text-contact, .text-contact-important{
+  color: #838383;
+  font-family: Muli;
+  font-size: 16px;
+  line-height: 36px;
+}
+.text-contact-important{
+  color: #525252;
+}
+}
+.row-gap-1down{
+  padding-bottom: 1rem;
+}
+.col-right-border{
+  border-right: 2px solid #D2B48C;
+}
+
+
+/*Commun au page Société Bois Construction Autres Contact*/
+.title-partie{
+  color: #000000;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 6.36px;
+  line-height: 27px;
+
+}
+.texte-partie{
+  color: #838383;
+  font-family: Muli;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+}
+.col-left-border, .top-line-left {
+  border-left: 2px solid #D2B48C;
+}
+.col-bottom-border{
+  border-bottom: 2px solid white;
+}
+.row-gap-5left{
+  padding-left: 5rem;
+}
+.top-line-left {
+  height:  3rem;
+}
+.row-gap-down{
+  padding-bottom: 2rem;
+}
+.row-gap-6down{
+  padding-bottom: 6rem;
+}
+.row-gap-top{
+  padding-top: 2rem;
+}
+
+.row-gap-3right{
+  padding-right: 3rem;
+}
+.no-gap{
+  padding: 0 !important;
+}
+.no-gap-right{
+  padding-right:0 !important;
+}
+.no-gap-left{
+  padding-left:0 !important ;
+}
+.footer-menu{
+  background-color:#282828;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  font-family: Muli;
+}
+.icons{
+  color: #F8C21C;
+  padding: 2rem 1rem;
+}
